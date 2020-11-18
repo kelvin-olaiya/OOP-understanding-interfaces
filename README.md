@@ -20,7 +20,7 @@ For sake of semplicity i didn't organize the code in packages or inside of a src
 
 ## Result  
 
-I tought that the implementation that would be taken into consideration was choosen based on the order in which i declare that class `Test` implements `InterfaceA` and `InterfaceB`, but in reality the what i get is a compilation error:
+I tought that the implementation that would be taken into consideration was choosen based on the order in which i declare that class `Test` implements `InterfaceA` and `InterfaceB`, but in reality what i get is a compilation error:
 > Test.java:1: error: types InterfaceA and InterfaceB are incompatible;  
 public class Test implements InterfaceA, InterfaceB {  
 >
