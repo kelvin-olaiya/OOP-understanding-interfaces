@@ -14,8 +14,8 @@ which basically have two methods:
 * a `default` method `void whereAmI()`, that prints a simple string to help us understard which of the two default implementation is taken into consideration;  
 * and a method `void otherMethod()` just to confirm what is being said in the abstract.  
 
-Then i have a class `Test` that implements the two interfaces and has a black implementation of `otherMethod()`.  
-Finally a `Main` class to make use the the `Test` class.  
+Then i have a class `Test` that implements the two interfaces and has a blank implementation of `otherMethod()`.  
+Finally a `Main` class to make use of the `Test` class.  
 For sake of semplicity i didn't organize the code in packages or inside of a src folder
 
 ## Result  
